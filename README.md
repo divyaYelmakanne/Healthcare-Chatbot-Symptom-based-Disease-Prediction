@@ -18,8 +18,11 @@ CHATBOT/
 │   ├── Testing.csv              # Testing dataset
 │   ├── symptom_Description.csv  # Descriptions of diseases
 │   ├── symptom_precaution.csv   # Precautions for each disease
+|   ├── dataset.csv
+|   ├── Symptom-severity.csv
 │
 ├── chatbot.py                   # Main chatbot application
+├── demo_conversations.py
 ```
 
 
