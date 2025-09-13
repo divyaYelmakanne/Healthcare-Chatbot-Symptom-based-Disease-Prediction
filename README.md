@@ -158,5 +158,19 @@ Precautions:
 4) Take insulin
 ```
 
+
+## Execution Commands
+
+```
+cd C:\Users\DELL\Desktop\CHATBOT
+python chatbot.py
+```
+
+```
+cd C:\Users\DELL\Desktop\CHATBOT
+python demo_conversations.py
+```
+
+
 ## 📜 License
 This project is licensed under the MIT License
