@@ -23,6 +23,7 @@ CHATBOT/
 │
 ├── chatbot.py                   # Main chatbot application
 ├── demo_conversations.py
+├── README.md
 ```
 
 
