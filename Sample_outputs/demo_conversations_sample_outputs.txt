@@ -1,0 +1,975 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\DELL> cd C:\Users\DELL\Desktop\CHATBOT
+PS C:\Users\DELL\Desktop\CHATBOT> python demo_conversations.py
+
+--- Conversation 1 ---
+You: itching
+Bot: Added symptom 'itching'. Any other symptoms?
+You: skin_rash
+Bot: Added symptom 'skin_rash'. Any other symptoms?
+You: nodal_skin_eruptions
+Bot: Added symptom 'nodal_skin_eruptions'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Fungal infection**.
+Description: In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi.
+Precautions:
+1) bath twice
+2) use detol or neem in bathing water
+3) keep infected area dry
+4) use clean cloths
+
+--- Conversation 2 ---
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: dizziness
+Bot: Added symptom 'dizziness'. Any other symptoms?
+You: blurred_and_distorted_vision
+Bot: Added symptom 'blurred_and_distorted_vision'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Cervical spondylosis**.
+Description: Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs).
+Precautions:
+1) use heating pad or cold pack
+2) exercise
+3) take otc pain reliver
+4) consult doctor
+
+--- Conversation 3 ---
+You: yellowing_of_eyes
+Bot: Added symptom 'yellowing_of_eyes'. Any other symptoms?
+You: dark_urine
+Bot: Added symptom 'dark_urine'. Any other symptoms?
+You: abdominal_pain
+Bot: Added symptom 'abdominal_pain'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Hepatitis D**.
+Description: Hepatitis D, also known as the hepatitis delta virus, is an infection that causes the liver to become inflamed. This swelling can impair liver function and cause long-term liver problems, including liver scarring and cancer. The condition is caused by the hepatitis D virus (HDV).
+Precautions:
+1) consult doctor
+2) medication
+3) eat healthy
+4) follow up
+
+--- Conversation 4 ---
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: weight_loss
+Bot: Added symptom 'weight_loss'. Any other symptoms?
+You: restlessness
+Bot: Added symptom 'restlessness'. Any other symptoms?
+You: mood_swings
+Bot: Added symptom 'mood_swings'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Jaundice**.
+Description: Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the "morbus regius" (the regal disease) in the belief that only the touch of a king could cure it
+Precautions:
+1) drink plenty of water
+2) consume milk thistle
+3) eat fruits and high fiberous food
+4) medication
+
+--- Conversation 5 ---
+You: cough
+Bot: Added symptom 'cough'. Any other symptoms?
+You: high_fever
+Bot: Added symptom 'high_fever'. Any other symptoms?
+You: breathlessness
+Bot: Added symptom 'breathlessness'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **AIDS**.
+Description: Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease.
+Precautions:
+1) avoid open cuts
+2) wear ppe if possible
+3) consult doctor
+4) follow up
+
+--- Conversation 6 ---
+You: loss_of_appetite
+Bot: Added symptom 'loss_of_appetite'. Any other symptoms?
+You: stomach_pain
+Bot: Added symptom 'stomach_pain'. Any other symptoms?
+You: weight_loss
+Bot: Added symptom 'weight_loss'. Any other symptoms?
+You: abdominal_pain
+Bot: Added symptom 'abdominal_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Jaundice**.
+Description: Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the "morbus regius" (the regal disease) in the belief that only the touch of a king could cure it
+Precautions:
+1) drink plenty of water
+2) consume milk thistle
+3) eat fruits and high fiberous food
+4) medication
+
+--- Conversation 7 ---
+You: chills
+Bot: Added symptom 'chills'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Allergy**.
+Description: An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander. Your immune system's job is to keep you healthy by fighting harmful pathogens.
+Precautions:
+1) apply calamine
+2) cover area with bandage
+3) nan
+4) use ice to compress itching
+
+--- Conversation 8 ---
+You: joint_pain
+Bot: Added symptom 'joint_pain'. Any other symptoms?
+You: swelling_joints
+Bot: Added symptom 'swelling_joints'. Any other symptoms?
+You: stiffness
+Bot: Added symptom 'stiffness'. Any other symptoms?
+You: movement_stiffness
+Bot: Added symptom 'movement_stiffness'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 9 ---
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: abdominal_pain
+Bot: Added symptom 'abdominal_pain'. Any other symptoms?
+You: diarrhea
+Bot: Added symptom 'diarrhea'. Any other symptoms?
+You: indigestion
+Bot: Added symptom 'indigestion'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Paralysis (brain hemorrhage)**.
+Description: Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body.
+Precautions:
+1) massage
+2) eat healthy
+3) exercise
+4) consult doctor
+
+--- Conversation 10 ---
+You: yellowing_of_eyes
+Bot: Added symptom 'yellowing_of_eyes'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: dark_urine
+Bot: Added symptom 'dark_urine'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Hepatitis D**.
+Description: Hepatitis D, also known as the hepatitis delta virus, is an infection that causes the liver to become inflamed. This swelling can impair liver function and cause long-term liver problems, including liver scarring and cancer. The condition is caused by the hepatitis D virus (HDV).
+Precautions:
+1) consult doctor
+2) medication
+3) eat healthy
+4) follow up
+
+--- Conversation 11 ---
+You: sore_throat
+Bot: Added symptom 'sore_throat'. Any other symptoms?
+You: cough
+Bot: Added symptom 'cough'. Any other symptoms?
+You: fever
+Bot: Added symptom 'fever'. Any other symptoms?
+You: congestion
+Bot: Added symptom 'congestion'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 12 ---
+You: shortness_of_breath
+Bot: Added symptom 'shortness_of_breath'. Any other symptoms?
+You: chest_pain
+Bot: Added symptom 'chest_pain'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Heart attack**.
+Description: The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle.
+Precautions:
+1) call ambulance
+2) chew or swallow asprin
+3) keep calm
+4) nan
+
+--- Conversation 13 ---
+You: anxiety
+Bot: Added symptom 'anxiety'. Any other symptoms?
+You: restlessness
+Bot: Added symptom 'restlessness'. Any other symptoms?
+You: sleeplessness
+Bot: Added symptom 'sleeplessness'. Any other symptoms?
+You: irritability
+Bot: Added symptom 'irritability'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Migraine**.
+Description: A migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can be so severe that it interferes with your daily activities.
+Precautions:
+1) meditation
+2) reduce stress
+3) use poloroid glasses in sun
+4) consult doctor
+
+--- Conversation 14 ---
+You: weight_gain
+Bot: Added symptom 'weight_gain'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: cold_hands_and_feets
+Bot: Added symptom 'cold_hands_and_feets'. Any other symptoms?
+You: swelling_of_body
+Bot: Added symptom 'swelling_of_body'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 15 ---
+You: weight_loss
+Bot: Added symptom 'weight_loss'. Any other symptoms?
+You: increased_appetite
+Bot: Added symptom 'increased_appetite'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: restlessness
+Bot: Added symptom 'restlessness'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Diabetes **.
+Description: No description available.
+Precautions:
+1) have balanced diet
+2) exercise
+3) consult doctor
+4) follow up
+
+--- Conversation 16 ---
+You: bloody_stool
+Bot: Added symptom 'bloody_stool'. Any other symptoms?
+You: abdominal_pain
+Bot: Added symptom 'abdominal_pain'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: weight_loss
+Bot: Added symptom 'weight_loss'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Jaundice**.
+Description: Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the "morbus regius" (the regal disease) in the belief that only the touch of a king could cure it
+Precautions:
+1) drink plenty of water
+2) consume milk thistle
+3) eat fruits and high fiberous food
+4) medication
+
+--- Conversation 17 ---
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: stomach_pain
+Bot: Added symptom 'stomach_pain'. Any other symptoms?
+You: loss_of_appetite
+Bot: Added symptom 'loss_of_appetite'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Drug Reaction**.
+Description: An adverse drug reaction (ADR) is an injury caused by taking medication. ADRs may occur following a single dose or prolonged administration of a drug or result from the combination of two or more drugs.
+Precautions:
+1) stop irritation
+2) consult nearest hospital
+3) stop taking drug
+4) follow up
+
+--- Conversation 18 ---
+You: rash
+Bot: Added symptom 'rash'. Any other symptoms?
+You: fever
+Bot: Added symptom 'fever'. Any other symptoms?
+You: body_pain
+Bot: Added symptom 'body_pain'. Any other symptoms?
+You: joint_pain
+Bot: Added symptom 'joint_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 19 ---
+You: chest_pain
+Bot: Added symptom 'chest_pain'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: shortness_of_breath
+Bot: Added symptom 'shortness_of_breath'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Heart attack**.
+Description: The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle.
+Precautions:
+1) call ambulance
+2) chew or swallow asprin
+3) keep calm
+4) nan
+
+--- Conversation 20 ---
+You: fever
+Bot: Added symptom 'fever'. Any other symptoms?
+You: chills
+Bot: Added symptom 'chills'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: muscle_pain
+Bot: Added symptom 'muscle_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Malaria**.
+Description: An infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type.
+Precautions:
+1) Consult nearest hospital
+2) avoid oily food
+3) avoid non veg food
+4) keep mosquitos out
+
+--- Conversation 21 ---
+You: sneezing
+Bot: Added symptom 'sneezing'. Any other symptoms?
+You: runny_nose
+Bot: Added symptom 'runny_nose'. Any other symptoms?
+You: watery_eyes
+Bot: Added symptom 'watery_eyes'. Any other symptoms?
+You: itching
+Bot: Added symptom 'itching'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 22 ---
+You: back_pain
+Bot: Added symptom 'back_pain'. Any other symptoms?
+You: weakness_in_limbs
+Bot: Added symptom 'weakness_in_limbs'. Any other symptoms?
+You: neck_pain
+Bot: Added symptom 'neck_pain'. Any other symptoms?
+You: dizziness
+Bot: Added symptom 'dizziness'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Cervical spondylosis**.
+Description: Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs).
+Precautions:
+1) use heating pad or cold pack
+2) exercise
+3) take otc pain reliver
+4) consult doctor
+
+--- Conversation 23 ---
+You: skin_peeling
+Bot: Added symptom 'skin_peeling'. Any other symptoms?
+You: silver_like_dusting
+Bot: Added symptom 'silver_like_dusting'. Any other symptoms?
+You: inflammatory_nails
+Bot: Added symptom 'inflammatory_nails'. Any other symptoms?
+You: joint_pain
+Bot: Added symptom 'joint_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Psoriasis**.
+Description: Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back. Psoriasis can't be passed from person to person. It does sometimes happen in members of the same family.
+Precautions:
+1) wash hands with warm soapy water
+2) stop bleeding using pressure
+3) consult doctor
+4) salt baths
+
+--- Conversation 24 ---
+You: sunken_eyes
+Bot: Added symptom 'sunken_eyes'. Any other symptoms?
+You: dehydration
+Bot: Added symptom 'dehydration'. Any other symptoms?
+You: diarrhea
+Bot: Added symptom 'diarrhea'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Gastroenteritis**.
+Description: Gastroenteritis is an inflammation of the digestive tract, particularly the stomach, and large and small intestines. Viral and bacterial gastroenteritis are intestinal infections associated with symptoms of diarrhea , abdominal cramps, nausea , and vomiting .
+Precautions:
+1) stop eating solid food for while
+2) try taking small sips of water
+3) rest
+4) ease back into eating
+
+--- Conversation 25 ---
+You: cough
+Bot: Added symptom 'cough'. Any other symptoms?
+You: fever
+Bot: Added symptom 'fever'. Any other symptoms?
+You: difficulty_breathing
+Bot: Added symptom 'difficulty_breathing'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 26 ---
+You: blood_in_sputum
+Bot: Added symptom 'blood_in_sputum'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: loss_of_appetite
+Bot: Added symptom 'loss_of_appetite'. Any other symptoms?
+You: chest_pain
+Bot: Added symptom 'chest_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Tuberculosis**.
+Description: Tuberculosis (TB) is an infectious disease usually caused by Mycobacterium tuberculosis (MTB) bacteria. Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections show no symptoms, in which case it is known as latent tuberculosis.
+Precautions:
+1) cover mouth
+2) consult doctor
+3) medication
+4) rest
+
+--- Conversation 27 ---
+You: stomach_pain
+Bot: Added symptom 'stomach_pain'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: loss_of_appetite
+Bot: Added symptom 'loss_of_appetite'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Drug Reaction**.
+Description: An adverse drug reaction (ADR) is an injury caused by taking medication. ADRs may occur following a single dose or prolonged administration of a drug or result from the combination of two or more drugs.
+Precautions:
+1) stop irritation
+2) consult nearest hospital
+3) stop taking drug
+4) follow up
+
+--- Conversation 28 ---
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: irritability
+Bot: Added symptom 'irritability'. Any other symptoms?
+You: anxiety
+Bot: Added symptom 'anxiety'. Any other symptoms?
+You: depression
+Bot: Added symptom 'depression'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Migraine**.
+Description: A migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can be so severe that it interferes with your daily activities.
+Precautions:
+1) meditation
+2) reduce stress
+3) use poloroid glasses in sun
+4) consult doctor
+
+--- Conversation 29 ---
+You: itching
+Bot: Added symptom 'itching'. Any other symptoms?
+You: skin_rash
+Bot: Added symptom 'skin_rash'. Any other symptoms?
+You: dischromic_patches
+Bot: Added symptom 'dischromic_patches'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 30 ---
+You: ulcers_on_tongue
+Bot: Added symptom 'ulcers_on_tongue'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **(vertigo) Paroymsal  Positional Vertigo**.
+Description: Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo — the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness.
+Precautions:
+1) lie down
+2) avoid sudden change in body
+3) avoid abrupt head movment
+4) relax
+
+--- Conversation 31 ---
+You: burning_micturition
+Bot: Added symptom 'burning_micturition'. Any other symptoms?
+You: bladder_discomfort
+Bot: Added symptom 'bladder_discomfort'. Any other symptoms?
+You: continuous_feel_of_urine
+Bot: Added symptom 'continuous_feel_of_urine'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Urinary tract infection**.
+Description: Urinary tract infection: An infection of the kidney, ureter, bladder, or urethra. Abbreviated UTI. Not everyone with a UTI has symptoms, but common symptoms include a frequent urge to urinate and pain or burning when urinating.
+Precautions:
+1) drink plenty of water
+2) increase vitamin c intake
+3) drink cranberry juice
+4) take probiotics
+
+--- Conversation 32 ---
+You: abdominal_pain
+Bot: Added symptom 'abdominal_pain'. Any other symptoms?
+You: diarrhea
+Bot: Added symptom 'diarrhea'. Any other symptoms?
+You: indigestion
+Bot: Added symptom 'indigestion'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **(vertigo) Paroymsal  Positional Vertigo**.
+Description: Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo — the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness.
+Precautions:
+1) lie down
+2) avoid sudden change in body
+3) avoid abrupt head movment
+4) relax
+
+--- Conversation 33 ---
+You: patches_in_throat
+Bot: Added symptom 'patches_in_throat'. Any other symptoms?
+You: fever
+Bot: Added symptom 'fever'. Any other symptoms?
+You: swelled_lymph_nodes
+Bot: Added symptom 'swelled_lymph_nodes'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 34 ---
+You: neck_pain
+Bot: Added symptom 'neck_pain'. Any other symptoms?
+You: dizziness
+Bot: Added symptom 'dizziness'. Any other symptoms?
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: back_pain
+Bot: Added symptom 'back_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Cervical spondylosis**.
+Description: Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs).
+Precautions:
+1) use heating pad or cold pack
+2) exercise
+3) take otc pain reliver
+4) consult doctor
+
+--- Conversation 35 ---
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: yellowing_of_eyes
+Bot: Added symptom 'yellowing_of_eyes'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Hepatitis C**.
+Description: Inflammation of the liver due to the hepatitis C virus (HCV), which is usually spread via blood transfusion (rare), hemodialysis, and needle sticks. The damage hepatitis C does to the liver can lead to cirrhosis and its complications as well as cancer.
+Precautions:
+1) Consult nearest hospital
+2) vaccination
+3) eat healthy
+4) medication
+
+--- Conversation 36 ---
+You: joint_pain
+Bot: Added symptom 'joint_pain'. Any other symptoms?
+You: back_pain
+Bot: Added symptom 'back_pain'. Any other symptoms?
+You: weakness_in_limbs
+Bot: Added symptom 'weakness_in_limbs'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 37 ---
+You: high_fever
+Bot: Added symptom 'high_fever'. Any other symptoms?
+You: rash
+Bot: Added symptom 'rash'. Any other symptoms?
+You: body_pain
+Bot: Added symptom 'body_pain'. Any other symptoms?
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **AIDS**.
+Description: Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease.
+Precautions:
+1) avoid open cuts
+2) wear ppe if possible
+3) consult doctor
+4) follow up
+
+--- Conversation 38 ---
+You: loss_of_balance
+Bot: Added symptom 'loss_of_balance'. Any other symptoms?
+You: unsteadiness
+Bot: Added symptom 'unsteadiness'. Any other symptoms?
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **(vertigo) Paroymsal  Positional Vertigo**.
+Description: Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo — the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness.
+Precautions:
+1) lie down
+2) avoid sudden change in body
+3) avoid abrupt head movment
+4) relax
+
+--- Conversation 39 ---
+You: altered_sensorium
+Bot: Added symptom 'altered_sensorium'. Any other symptoms?
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Paralysis (brain hemorrhage)**.
+Description: Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body.
+Precautions:
+1) massage
+2) eat healthy
+3) exercise
+4) consult doctor
+
+--- Conversation 40 ---
+You: weight_loss
+Bot: Added symptom 'weight_loss'. Any other symptoms?
+You: chills
+Bot: Added symptom 'chills'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: cough
+Bot: Added symptom 'cough'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Allergy**.
+Description: An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander. Your immune system's job is to keep you healthy by fighting harmful pathogens.
+Precautions:
+1) apply calamine
+2) cover area with bandage
+3) nan
+4) use ice to compress itching
+
+--- Conversation 41 ---
+You: muscle_wasting
+Bot: Added symptom 'muscle_wasting'. Any other symptoms?
+You: weakness
+Bot: Added symptom 'weakness'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **AIDS**.
+Description: Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease.
+Precautions:
+1) avoid open cuts
+2) wear ppe if possible
+3) consult doctor
+4) follow up
+
+--- Conversation 42 ---
+You: abdominal_pain
+Bot: Added symptom 'abdominal_pain'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Paralysis (brain hemorrhage)**.
+Description: Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body.
+Precautions:
+1) massage
+2) eat healthy
+3) exercise
+4) consult doctor
+
+--- Conversation 43 ---
+You: palpitations
+Bot: Added symptom 'palpitations'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: sweating
+Bot: Added symptom 'sweating'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 44 ---
+You: constipation
+Bot: Added symptom 'constipation'. Any other symptoms?
+You: stomach_pain
+Bot: Added symptom 'stomach_pain'. Any other symptoms?
+You: gas
+Bot: Added symptom 'gas'. Any other symptoms?
+You: acidity
+Bot: Added symptom 'acidity'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Dimorphic hemmorhoids(piles)**.
+Description: No description available.
+Precautions:
+1) avoid fatty spicy food
+2) consume witch hazel
+3) warm bath with epsom salt
+4) consume alovera juice
+
+--- Conversation 45 ---
+You: mood_swings
+Bot: Added symptom 'mood_swings'. Any other symptoms?
+You: restlessness
+Bot: Added symptom 'restlessness'. Any other symptoms?
+You: weight_loss
+Bot: Added symptom 'weight_loss'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Jaundice**.
+Description: Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the "morbus regius" (the regal disease) in the belief that only the touch of a king could cure it
+Precautions:
+1) drink plenty of water
+2) consume milk thistle
+3) eat fruits and high fiberous food
+4) medication
+
+--- Conversation 46 ---
+You: sleeplessness
+Bot: Added symptom 'sleeplessness'. Any other symptoms?
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: anxiety
+Bot: Added symptom 'anxiety'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 47 ---
+You: headache
+Bot: Added symptom 'headache'. Any other symptoms?
+You: nausea
+Bot: Added symptom 'nausea'. Any other symptoms?
+You: sensitivity_to_light
+Bot: Added symptom 'sensitivity_to_light'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **(vertigo) Paroymsal  Positional Vertigo**.
+Description: Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo — the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness.
+Precautions:
+1) lie down
+2) avoid sudden change in body
+3) avoid abrupt head movment
+4) relax
+
+--- Conversation 48 ---
+You: bloody_stool
+Bot: Added symptom 'bloody_stool'. Any other symptoms?
+You: vomiting
+Bot: Added symptom 'vomiting'. Any other symptoms?
+You: stomach_pain
+Bot: Added symptom 'stomach_pain'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Drug Reaction**.
+Description: An adverse drug reaction (ADR) is an injury caused by taking medication. ADRs may occur following a single dose or prolonged administration of a drug or result from the combination of two or more drugs.
+Precautions:
+1) stop irritation
+2) consult nearest hospital
+3) stop taking drug
+4) follow up
+
+--- Conversation 49 ---
+You: swelling_joints
+Bot: Added symptom 'swelling_joints'. Any other symptoms?
+You: painful_walking
+Bot: Added symptom 'painful_walking'. Any other symptoms?
+You: stiffness
+Bot: Added symptom 'stiffness'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Arthritis**.
+Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.
+Precautions:
+1) exercise
+2) use hot and cold therapy
+3) try acupuncture
+4) massage
+
+--- Conversation 50 ---
+You: fatigue
+Bot: Added symptom 'fatigue'. Any other symptoms?
+You: chest_pain
+Bot: Added symptom 'chest_pain'. Any other symptoms?
+You: shortness_of_breath
+Bot: Added symptom 'shortness_of_breath'. Any other symptoms?
+You: done
+C:\Users\DELL\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+Bot: I think you may have **Heart attack**.
+Description: The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle.
+Precautions:
+1) call ambulance
+2) chew or swallow asprin
+3) keep calm
+4) nan

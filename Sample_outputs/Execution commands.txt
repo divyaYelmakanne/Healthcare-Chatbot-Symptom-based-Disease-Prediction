@@ -1,0 +1,14 @@
+MAIN FILE EXECUTION COMMANDS
+
+-->  cd C:\Users\DELL\Desktop\CHATBOT
+-->  python chatbot.py
+
+
+
+
+
+
+DEMO CONVERSATIONS EXECUTION COMMANDS
+
+-->  cd C:\Users\DELL\Desktop\CHATBOT
+-->  python demo_conversations.py
