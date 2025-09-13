@@ -10,7 +10,7 @@ It also provides disease description and precautionary measures.
 
 
 ## 📂 Project Structure
-'''
+```
 CHATBOT/
 │
 ├── Data/                        # Dataset folder
@@ -20,39 +20,39 @@ CHATBOT/
 │   ├── symptom_precaution.csv   # Precautions for each disease
 │
 ├── chatbot.py                   # Main chatbot application
-'''
+```
 
 
 ## ⚙️ Installation
 
 1. Clone the repository or download the files.
-'''
+```
 git clone https://github.com/yourusername/healthcare-chatbot.git
 cd healthcare-chatbot
-'''
+```
 
-2. Create and activate a virtual environment:
-'''
+3. Create and activate a virtual environment:
+```
 python -m venv venv
 venv\Scripts\activate   # For Windows
 source venv/bin/activate  # For Linux/Mac
-'''
+```
 
-3. Install dependencies:
-'''
+4. Install dependencies:
+```
 pip install -r requirements.txt
-'''
+```
 
 
 ## 🚀 Usage
 
 1. Run the chatbot:
-'''
+```
 python chatbot.py
-'''
+```
 
 2. 💬 Example session:
-'''
+```
 You: itching
 Bot: Added symptom 'itching'. Any other symptoms?
 
@@ -70,7 +70,7 @@ Precautions:
 2) Keep area dry
 3) Use clean clothes
 4) Consult doctor
-'''
+```
 
 
 ## 📊 Dataset Info
@@ -111,7 +111,7 @@ Similar format, used for evaluation
 
 ## 🧪 Example Conversations
 Example 1: Migraine
-'''
+```
 You: headache
 Bot: Added symptom 'headache'. Any other symptoms?
 
@@ -132,10 +132,10 @@ Precautions:
 2) Avoid triggers
 3) Reduce stress
 4) Rest in dark room
-'''
+```
 
 Example 2: Diabetes
-'''
+```
 You: fatigue
 Bot: Added symptom 'fatigue'. Any other symptoms?
 
@@ -156,7 +156,7 @@ Precautions:
 2) Exercise
 3) Monitor blood sugar
 4) Take insulin
-'''
+```
 
 ## 📜 License
 This project is licensed under the MIT License
