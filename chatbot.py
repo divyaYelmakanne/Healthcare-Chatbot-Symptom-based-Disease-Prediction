@@ -1,5 +1,5 @@
-import tkinter as tk
-from tkinter import scrolledtext
+# chatbot.py (Streamlit version)
+import streamlit as st
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
@@ -18,8 +18,7 @@ model = DecisionTreeClassifier()
 model.fit(X, y)
 
 # --- Chatbot Logic ---
-symptoms_list = X.columns.tolist()
-collected_symptoms = []
+symptoms_list = [s.lower() for s in X.columns]  # all symptoms lowercase
 
 def get_precautions(disease):
     row = prec[prec["Disease"] == disease]
@@ -33,25 +32,38 @@ def get_description(disease):
         return row["Description"].values[0]
     return "No description available."
 
-def on_send():
-    user = entry.get().strip()
-    if not user:
-        return
-    
-    chat_box.configure(state='normal')
-    chat_box.insert(tk.END, "You: " + user + "\n")
-    
-    global collected_symptoms
+# --- Streamlit UI ---
+st.set_page_config(page_title="AI Health Assistant", layout="centered")
+st.title("🩺 AI Health Assistant")
 
-    if user.lower() in symptoms_list:
-        # Add symptom if it's valid
-        collected_symptoms.append(user.lower())
-        chat_box.insert(tk.END, f"Bot: Added symptom '{user}'. Any other symptoms?\n\n")
+# Initialize session state
+if "collected_symptoms" not in st.session_state:
+    st.session_state.collected_symptoms = []
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
 
-    elif user.lower() == "done":
+# Display chat history
+for chat in st.session_state.chat_history:
+    st.markdown(chat)
+
+# User input
+user_input = st.text_input("Type your symptom (or type 'done'):")
+
+if st.button("Send") and user_input:
+    user = user_input.strip().lower()
+    chat_output = ""
+
+    # Save user's message
+    chat_output += f"**You:** {user_input}\n\n"
+
+    if user in symptoms_list:
+        st.session_state.collected_symptoms.append(user)
+        chat_output += f"**Bot:** Added symptom '{user_input}'. Any other symptoms?\n\n"
+
+    elif user == "done":
         # Predict the disease
         input_data = [0] * len(symptoms_list)
-        for s in collected_symptoms:
+        for s in st.session_state.collected_symptoms:
             if s in symptoms_list:
                 input_data[symptoms_list.index(s)] = 1
         disease = model.predict([input_data])[0]
@@ -60,49 +72,23 @@ def on_send():
         description = get_description(disease)
         precautions = get_precautions(disease)
 
-        chat_box.insert(tk.END, f"Bot: I think you may have **{disease}**.\n")
-        chat_box.insert(tk.END, f"Description: {description}\n")
-        chat_box.insert(tk.END, "Precautions:\n")
+        chat_output += f"**Bot:** I think you may have **{disease}**.\n\n"
+        chat_output += f"**Description:** {description}\n\n"
+        chat_output += "**Precautions:**\n"
         for i, p in enumerate(precautions, 1):
-            chat_box.insert(tk.END, f"{i}) {p}\n")
-        chat_box.insert(tk.END, "\n")
+            chat_output += f"{i}) {p}\n"
 
         # Reset for next conversation
-        collected_symptoms = []
+        st.session_state.collected_symptoms = []
 
     else:
-        chat_box.insert(
-            tk.END,
-            "Bot: Sorry, I don’t recognize that symptom. "
+        chat_output += (
+            "**Bot:** Sorry, I don’t recognize that symptom. "
             "Try another or type 'done'.\n\n"
         )
-    
-    chat_box.configure(state='disabled')
-    entry.delete(0, tk.END)
-    chat_box.see(tk.END)
 
-# --- Tkinter UI ---
-root = tk.Tk()
-root.title("AI Health Assistant (Interactive)")
-root.geometry("600x500")
+    # Save chat history
+    st.session_state.chat_history.append(chat_output)
 
-chat_box = scrolledtext.ScrolledText(root, state='disabled', wrap='word')
-chat_box.pack(padx=10, pady=10, fill='both', expand=True)
-
-entry_frame = tk.Frame(root)
-entry_frame.pack(padx=10, pady=(0, 10), fill='x')
-
-entry = tk.Entry(entry_frame)
-entry.pack(side='left', fill='x', expand=True, padx=(0, 6))
-entry.bind("<Return>", lambda event: on_send())
-
-send_btn = tk.Button(entry_frame, text="Send", command=on_send)
-send_btn.pack(side='right')
-
-# Initial message
-chat_box.configure(state='normal')
-chat_box.insert(tk.END, "Bot: Hello! Please tell me your symptoms one by one.\n")
-chat_box.insert(tk.END, "When you are done, type 'done'.\n\n")
-chat_box.configure(state='disabled')
-
-root.mainloop()
+    # Clear input box
+    st.experimental_rerun()
