@@ -91,4 +91,6 @@ if st.button("Send") and user_input:
     st.session_state.chat_history.append(chat_output)
 
     # Clear input box
-    st.experimental_rerun()
+    st.rerun()
+
+
